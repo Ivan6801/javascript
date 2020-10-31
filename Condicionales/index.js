@@ -78,10 +78,7 @@ function imprimir(persona) {
         console.log(`${persona.nombre} ${persona.apellido} es drone`)
     } else {
         console.log(`${persona.nombre} ${persona.apellido} (no es drone)`)
-    }
-
-    
-    
+    }  
 }
 
 imprimir(ivan)
